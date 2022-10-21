@@ -14,7 +14,7 @@ const questions = [
     {
         type: 'input',
         message: 'Write a short description of your project.  ',
-        name: 'descripiton',
+        name: 'description',
     },
     {
         type: 'input',
@@ -57,6 +57,8 @@ function init() {
     inquirer.prompt(questions)
         .then((answers) => {
             const readmeContent = generateMarkdown(answers)
+            
+            writeToFile('generate-README.md',readmeContent);
         })
 }
 
