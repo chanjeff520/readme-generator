@@ -41,14 +41,13 @@
 
 
   ## License  <a id="license"></a>
+  ![License:asd](https://img.shields.io/badge/license-asd-blue)
+  ![License: asd](https://img.shields.io/badge/license-asd-blue)
 
-  ![License: asdf](https://img.shields.io/badge/License-GPLv3-blue.svg)
-
-  ![License: asdf](https://img.shields.io/badge/license-asdf-blue)
 
   ## installation <a id="installation"></a>
 
- asdf
+ fasd
 
 
   ## Test <a id="test"></a>
@@ -59,5 +58,6 @@
   ## Author Links <a id="author"></a>
 
   GitHub: asdf
-  Email:  asdf
+
+  Email:  asdfa
 
