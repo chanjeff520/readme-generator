@@ -9,7 +9,6 @@ const questions = [
         type: 'input',
         message: "What is the name of your project?  ",
         name: 'projectName',
-        //validate: (answer) => answer.length < 1 ? console.log("Your project name needs more than one character.") : return true;
     },
     {
         type: 'input',
@@ -17,9 +16,10 @@ const questions = [
         name: 'description',
     },
     {
-        type: 'input',
+        type: 'list',
         message: "What kind of license should your project have?  ",
-        name: 'license'
+        name: 'license',
+        choices: ['MIT', 'Apache', 'GPL', 'compliant', 'BSD', 'GNU']
     },
     {
         type: 'input',
@@ -28,13 +28,28 @@ const questions = [
     },
     {
         type: 'input',
-        message: "What command should be run to run tests?  ",
-        name: "testCommands"
+        message: "What does the installation process look like?  ",
+        name: "installation"
+    },
+    {
+        type: 'input',
+        message: "Any Instructions?  ",
+        name: "usage"
+    },
+    {
+        type: 'input',
+        message: "What test do we need to do?  ",
+        name: "test"
     },
     {
         type: 'input',
         message: "What is your GitHub username?  ",
         name: "username"
+    },
+    {
+        type: 'input',
+        message: "What is your GitHub profile link?  ",
+        name: "profile"
     },
     {
         type: 'input',

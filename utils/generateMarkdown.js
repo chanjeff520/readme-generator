@@ -39,41 +39,43 @@ function generateMarkdown(data) {
   ## Table of Contents
 
   1.  [Usage](#usage)\n
-  2.  [License](#license)\n
-  3.  [Installations](#installation)\n
-  4.  [Test](#test)\n
-  5.  [Author Links](#author)\n
-
-  
-  ## Usage <a id="usage"></a>
-  
-  <ol>
-      <li> </li>
-      <li> </li>
-      <li> </li>
-      <li> </li>
-  </ol>
-
-
-  ## License  <a id="license"></a>
-  ${renderLicenseSection(data.license)}
-  ![License: ${data.license}](https://img.shields.io/badge/license-${data.license}-blue)
+  2.  [Installations](#installation)\n
+  3.  [License](#license)\n
+  4.  [Author Links](#author)\n
+  5.  [Contributors](#collab)\n
+  6.  [Tests](#test)
 
 
   ## installation <a id="installation"></a>
 
- ${data.dependencies}
+  Dependencies needed: ${data.dependencies}
+  Installation : ${data.installation}
+
+
+  ## Usage <a id="usage"></a>
+  
+  ${data.usage}
+
+
+  ## License  <a id="license"></a>
+
+  ${renderLicenseSection(data.license)}
+
+
+  ## Contributors <a id="collab"></a>
 
 
   ## Test <a id="test"></a>
 
-  put your test here 
+  ${data.test}
 
 
   ## Author Links <a id="author"></a>
 
-  GitHub: ${data.username}\n
-  Email:  ${data.userEmail}
+  You can reach me on\n
+  GitHub: [__${data.username}__](${data.profile})\n
+  Email:  __${data.userEmail}__
+
 
 `;
 }
