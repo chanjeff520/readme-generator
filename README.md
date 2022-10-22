@@ -1,6 +1,7 @@
 # readme-generator 
 
-![responses images](./assets/readme-picture.png)
+![responses images](./assets/readme-picture.png)<br>
+Go to GitHub: https://github.com/chanjeff520/readme-generator#readme
 
   ## Technology Used
   
@@ -34,10 +35,13 @@
   6.  [Code Snippet](#code)
 
 
-  ## installation <a id="installation"></a>
+  ## Installation <a id="installation"></a>
 
-  Dependencies needed: npm, inquirer, node.js
-  Installation : npm install and npm i inquirer
+  Dependencies needed: npm, inquirer, node.js<br>
+  Installation : 
+   - install node.js via (https://nodejs.org/en/download/)
+   - In the terminal, do 'npm install' package.json file. Make sure to do this within the directory with index.js.
+   - Lastly install inquirer by 'npm i inquirer'. Again, do this within the directory with index.js
 
 
   ## Usage <a id="usage"></a>
