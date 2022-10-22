@@ -91,6 +91,6 @@ function init() {
   ## Author Links <a id="author"></a>
 
   You can reach me on
-  GitHub: [__chanjeff520__](https://github.com/chanjeff520)
-
+  GitHub: [__chanjeff520__](https://github.com/chanjeff520) <br>
+  LinkedIn: [__Jeff chan__](https://www.linkedin.com/in/jefflchan/),<br>
   Email:  __chanjeff520@gmail.com__
